@@ -6,7 +6,11 @@ import { MatInputModule } from '@angular/material/input';
 @Component({
   selector: 'app-add-product',
   standalone: true,
-  imports: [],
+  imports: [
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+  ],
   templateUrl: './add-product.component.html',
   styleUrl: './add-product.component.scss'
 })
